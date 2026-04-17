@@ -11,6 +11,7 @@ MEMBER_PROFILE와 REST_REVIEW 테이블에서 리뷰를 가장 많이 작성한 
 -- https://school.programmers.co.kr/learn/courses/30/lessons/131124
 
 ## 작성쿼리
+```SQL
 SELECT
     P.MEMBER_NAME,
     R.REVIEW_TEXT,
